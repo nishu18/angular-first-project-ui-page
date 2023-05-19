@@ -1,0 +1,46 @@
+.list3 {
+    display: flex;
+    flex-direction: row;
+    gap: 123px;
+    width: 100vw;
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
+  
+  
+  .driver{
+    position:relative;
+   left: 148px;
+  }
+  .vehicle{
+    position:absolute;
+   left: 354px;
+  }
+  .branch{
+    position:absolute;
+   left: 525px;
+  }
+  .load{
+    position:absolute;
+   left: 695px;
+  }
+  .agent{
+    position:absolute;
+   left: 890px;
+  }
+  .source{
+    position:absolute;
+   left: 1100px;
+  }
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+    font-size: 20px;
+  }
+  
