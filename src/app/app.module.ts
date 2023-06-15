@@ -10,6 +10,7 @@ import { SearchComponent } from './search/search.component';
 import { ContainerComponent } from './container/container.component';
 import { HeaderComponent } from './header/header.component';
 import { ItemComponent } from './item/item.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -27,6 +28,8 @@ import { ItemComponent } from './item/item.component';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    AppRoutingModule,
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
